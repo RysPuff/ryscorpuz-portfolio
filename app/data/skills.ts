@@ -1,8 +1,4 @@
 import { projects } from "../data/projects";
-
-// 1. Extract and flatten all skill arrays from projects
-// 2. Use a Set to remove duplicates
-// 3. Sort alphabetically for a clean UI
 const dynamicSkills = Array.from(
   new Set(
     projects.flatMap((project) => project.skills || [])
