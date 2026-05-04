@@ -116,7 +116,7 @@ export const projects = [
       systems, and safety protocols. This project allowed me to apply my 
       knowledge of applied physics and develop practical engineering skills.`,
     ],
-    skills: ["SolidWorks", "Laser Cutting", "Safety Protocols"],
+    skills: ["SolidWorks", "Laser Cutting", "OpenRocket"],
     short: [
       "Designed, built, and launched an L1-certified rocket with a koi fish paint job as a solo project",
       "Self-taught rocket design, propulsion systems, and safety protocols using SolidWorks, laser cutting, and simulation",
