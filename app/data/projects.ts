@@ -116,7 +116,7 @@ export const projects = [
       systems, and safety protocols. This project allowed me to apply my 
       knowledge of applied physics and develop practical engineering skills.`,
     ],
-    skills: ["SolidWorks", "Laser Cutting", "3D Modeling", "Safety Protocols"],
+    skills: ["SolidWorks", "Laser Cutting", "Safety Protocols"],
     short: [
       "Designed, built, and launched an L1-certified rocket with a koi fish paint job as a solo project",
       "Self-taught rocket design, propulsion systems, and safety protocols using SolidWorks, laser cutting, and simulation",
@@ -253,7 +253,7 @@ export const projects = [
       and data logging. This project combines my interests in hardware design, 
       software integration, and hands-on engineering challenges.`,
     ],
-    skills: ["SolidWorks","Raspberry Pi", "CAD", "3D Printing", "OpenRocket", "Hardware Design"],
+    skills: ["SolidWorks","Raspberry Pi", "3D Printing", "OpenRocket", "Hardware Design"],
     short: [
       `Wearable cyberdeck built around a Raspberry Pi Zero 2 W made to
       run OpenRocket simulations in the field and take notes on-site`,
@@ -283,7 +283,7 @@ export const projects = [
       flight controllers, and fine-tuning the drone's aerodynamics through iterative 
       testing.`
     ],
-    skills: ["SolidWorks", "Raspberry Pi", "CAD", "3D Printing", "Hardware Design"],
+    skills: ["SolidWorks", "Raspberry Pi", "3D Printing", "Hardware Design"],
     short: [
       "Mini FPV racing drone with a custom CAD-designed and 3D printed frame",
     ],
