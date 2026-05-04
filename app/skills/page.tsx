@@ -6,8 +6,8 @@ function getProjectSkills() {
   
   for (const proj of projects) {
     if (!proj.skills) continue;
-    for (const skill of proj.skills) {
-      if (!skill) continue;
+    for (const skill of proj.skills || []) { // Added || [] as a fallback
+    if (!skill) continue;
       if (!map[skill]) map[skill] = [];
             if (!map[skill].find((p) => p.slug === proj.slug)) {
         map[skill].push({ name: proj.name, slug: proj.slug });
