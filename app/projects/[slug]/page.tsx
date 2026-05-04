@@ -208,7 +208,7 @@ export default function ProjectPage({ params }: Props) {
           <div className="project-section-label">// Overview</div>
           <h2 className="project-section-title">Description</h2>
           <div className="project-description">
-            {(Array.isArray(project.description) ? project.description : project.description.split("\n")).map((line, i) => {
+            {(Array.isArray(project.description) ? project.description : []).map((line, i) => {
               const trimmedLine = line.trim();
               
               // If the line is empty, return a spacer div for consistent padding
@@ -216,7 +216,7 @@ export default function ProjectPage({ params }: Props) {
                 return <div key={i} style={{ height: "1.2rem" }} />;
               }
 
-              // Check if the line is a bullet point to apply specific styling if desired
+              // Check if the line is a bullet point for specific styling
               const isBullet = trimmedLine.startsWith("-") || trimmedLine.startsWith("•");
 
               return (
