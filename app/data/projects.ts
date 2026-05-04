@@ -19,7 +19,7 @@ export const projects = [
       determination, it's possible to achieve impressive results even with limited 
       resources.`,
     ],
-    skills: ["SolidWorks", "OpenRocket", "Fabrication", "Budget Design", "Laser Cutting"],
+    skills: ["SolidWorks", "OpenRocket",, "Budget Design", "Laser Cutting"],
     short: [
       `L2-capable rocket built entirely from free scrap parts as a personal engineering
       challenge on a sub-$40 budget (excluding motor)`,
