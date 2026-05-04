@@ -36,14 +36,20 @@ export default function Skills() {
         }
         .project-skills-grid {
           display: grid;
+          /* This ensures all items in a row maintain the same height */
           grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
           gap: 1rem;
+          /* Ensures the grid itself doesn't shrinkwrap if there are few items */
+          align-items: stretch; 
         }
         .project-skill-card {
           background: var(--dark3);
           border: 1px solid rgba(196,168,130,0.1);
           padding: 1.25rem 1.5rem;
           transition: border-color 0.2s;
+          display: flex;
+          flex-direction: column;
+          height: 100%;
         }
         .project-skill-card:hover { border-color: rgba(196,168,130,0.3); }
         .project-skill-name {
@@ -69,6 +75,7 @@ export default function Skills() {
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
           gap: 1rem;
+          align-items: stretch;
         }
         .manual-skill-card {
           background: var(--dark3);
@@ -90,6 +97,7 @@ export default function Skills() {
           padding: 1.25rem 1.5rem;
           display: flex; align-items: center; gap: 1rem;
           transition: border-color 0.2s;
+          height: 100%;
         }
         .cert-card:hover { border-color: rgba(196,168,130,0.3); }
         .cert-icon { font-size: 1.2rem; color: var(--tan-dark); flex-shrink: 0; }
