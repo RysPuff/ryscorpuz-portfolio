@@ -5,10 +5,8 @@ function getProjectSkills() {
   const map: Record<string, { name: string; slug: string }[]> = {};
   
   for (const proj of projects) {
-    // Safety check: Ensure proj.skills exists before iterating
     if (!proj.skills) continue;
     for (const skill of proj.skills) {
-      // Safety check: Skip if skill is null, undefined, or an empty string
       if (!skill) continue;
       if (!map[skill]) map[skill] = [];
             if (!map[skill].find((p) => p.slug === proj.slug)) {

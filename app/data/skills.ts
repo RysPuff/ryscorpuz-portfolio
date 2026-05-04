@@ -14,6 +14,5 @@ export const manualSkills = {
     { name: "L1 Rocketry Certification", source: "National Association of Rocketry" },
     { name: "L2 Rocketry Certification (In Progress)", source: "Tripoli Rocketry Association" },
   ],
-  // This now pulls "LAMMPS", "OVITO", "SolidWorks", etc. automatically
   fromProjectsAndResearch: dynamicSkills
 };
