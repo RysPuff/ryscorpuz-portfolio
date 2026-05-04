@@ -19,7 +19,7 @@ export const projects = [
       determination, it's possible to achieve impressive results even with limited 
       resources.`,
     ],
-    skills: ["SolidWorks", "OpenRocket", "Fabrication", "Budget Design"],
+    skills: ["SolidWorks", "OpenRocket", "Fabrication", "Budget Design", "Laser Cutting"],
     short: [
       `L2-capable rocket built entirely from free scrap parts as a personal engineering
       challenge on a sub-$40 budget (excluding motor)`,
@@ -30,6 +30,8 @@ export const projects = [
     ],
     documentation: [
       { label: "Build Log", href: "/docs/jester-buildlog.pdf" },
+      { label: "OpenRocket Simulation File", href: "/docs/jester-sim.ork" },
+
     ],
   },
   {
@@ -56,7 +58,7 @@ export const projects = [
       validating stability and performance through OpenRocket simulations.`,
     ],
 
-    skills: ["SolidWorks", "OpenRocket", "Flight Computer Integration", "Pyrotechnic Systems", "Structural Design"],
+    skills: ["SolidWorks", "OpenRocket", "Flight Computer Integration", "Pyrotechnic Systems", "Composite Fabrication"],
     short: [
       `Multi-stage curriculum to design, build, and launch a high-powered L2 rocket with 
       an integrated flight computer, composite materials, and pyrotechnic systems.`,
@@ -106,8 +108,15 @@ export const projects = [
     date: "December 2024 — February 2026",
     status: "past",
     accent: "#6B1F2A",
-    description: "I built and launched an L1-certified rocket with a koi fish paint job as a solo project with the capability to launch as an L2. By combining 3D modeling, laser cutting, simulation, and other methods, I gained hands-on experience in rocket design, propulsion systems, and safety protocols. This project allowed me to apply my knowledge of applied physics and develop practical engineering skills.",
-    skills: ["SolidWorks", "Laser Cutting", "Rocket Propulsion", "3D Modeling", "Safety Protocols"],
+    description: [
+      `I built and launched an L1-certified rocket with a koi fish 
+      paint job as a solo project with the capability to launch as an 
+      L2. By combining 3D modeling, laser cutting, simulation, and other 
+      methods, I gained hands-on experience in rocket design, propulsion 
+      systems, and safety protocols. This project allowed me to apply my 
+      knowledge of applied physics and develop practical engineering skills.`,
+    ],
+    skills: ["SolidWorks", "Laser Cutting", "3D Modeling", "Safety Protocols"],
     short: [
       "Designed, built, and launched an L1-certified rocket with a koi fish paint job as a solo project",
       "Self-taught rocket design, propulsion systems, and safety protocols using SolidWorks, laser cutting, and simulation",
@@ -146,7 +155,7 @@ export const projects = [
     stress-strain data, this project demonstrates a reliable, cost-effective method 
     for evaluating material performance in high-stress environments without the 
     overhead of physical prototyping.`, ],
-    skills: ["LAMMPS", "OVITO", "MATLAB", "Molecular Dynamics", "Materials Science", "Data Visualization"],
+    skills: ["LAMMPS", "OVITO", "MATLAB", "Molecular Dynamics", "Materials Science", "Data Visualization", "Research Presentation"],
     short: [
       `Utilized LAMMPS and OVITO to perform molecular dynamics simulations on Σ5(310) 
       aluminum grain boundaries, leveraging MATLAB to analyze interfacial energy and 
@@ -163,16 +172,18 @@ export const projects = [
   {
     slug: "rc-plane",
     order: 5,
-    name: "RC Plane",
+    name: "Fire-Flight: RC Plane",
     subtitle: "Engineering Club — Evacuation Routes",
     date: "January 2025 — August 2025",
     status: "past",
     accent: "#C4A882",
-    description: [`"Fire-Flight: ML-Driven Aerial Sensing for Wildfire Prediction 
+    description: [
+      `"Fire-Flight: ML-Driven Aerial Sensing for Wildfire Prediction 
     and Smart Evacuation," explores how a remote-controlled plane we created can 
     collect data to enhance machine-learning models that support wildfire response 
     and evacuation strategies. I worked on the structual aspects of the plane 
-    verifying the flight capablities utilizing MATLAB and SolidWorks.`],
+    verifying the flight capablities utilizing MATLAB and SolidWorks.`
+    ],
     skills: ["SolidWorks", "CFD", "MATLAB", "Structural Analysis", "Aerodynamics", "Research Presentation"],
     short: [
       "Led SolidWorks structural analysis and CFD for an RC plane studying evacuation routes",
@@ -242,7 +253,7 @@ export const projects = [
       and data logging. This project combines my interests in hardware design, 
       software integration, and hands-on engineering challenges.`,
     ],
-    skills: ["Raspberry Pi", "CAD", "3D Printing", "OpenRocket", "Embedded Systems", "Hardware Design"],
+    skills: ["SolidWorks","Raspberry Pi", "CAD", "3D Printing", "OpenRocket", "Hardware Design"],
     short: [
       `Wearable cyberdeck built around a Raspberry Pi Zero 2 W made to
       run OpenRocket simulations in the field and take notes on-site`,
@@ -272,7 +283,7 @@ export const projects = [
       flight controllers, and fine-tuning the drone's aerodynamics through iterative 
       testing.`
     ],
-    skills: ["Raspberry Pi", "CAD", "3D Printing", "Hardware Design"],
+    skills: ["SolidWorks", "Raspberry Pi", "CAD", "3D Printing", "Hardware Design"],
     short: [
       "Mini FPV racing drone with a custom CAD-designed and 3D printed frame",
     ],
