@@ -39,11 +39,6 @@ export default function Skills() {
           /* This ensures all items in a row maintain the same height */
           grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
           gap: 1rem;
-          /* Ensures the grid itself doesn't shrinkwrap if there are few items */
-          align-items: stretch; 
-        }
-        .project-skill-card {
-          background: var(--dark3);
           border: 1px solid rgba(196,168,130,0.1);
           padding: 1.25rem 1.5rem;
           transition: border-color 0.2s;
@@ -109,7 +104,12 @@ export default function Skills() {
         .cert-source { font-size: 0.6rem; letter-spacing: 0.1em; color: var(--text-muted); }
         @media (max-width: 640px) {
           .project-skills-grid,
-          .manual-skills-grid { grid-template-columns: 1fr 1fr; }
+          .manual-skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            grid-auto-rows: 1fr; /* This forces all rows to match the tallest item */
+            gap: 1rem;
+          }
         }
       `}</style>
 
