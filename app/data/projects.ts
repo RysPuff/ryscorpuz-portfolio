@@ -95,7 +95,7 @@ export const projects = [
       { src: "https://api.microlink.io/?url=https://ryscorpuz.vercel.app/&screenshot=true&meta=false&embed=screenshot.url", caption: "Live portfolio preview" },
     ],
     documentation: [
-      { label: "Drawing Sheets", href: "/docs/kohaku-sheets.pdf" },
+      { label: "Github Repository", href: "https://github.com/RysPuff/ryscorpuz-portfolio" },
     ],
   },
   {
