@@ -79,14 +79,14 @@ export const projects = [
     date: "April 2026 — Present",
     status: "current",
     accent: "#6B1F2A",
-    description: `
+    description: [`
       Designed and developed a full-stack personal portfolio website from scratch. 
       Built with Next.js and TypeScript, the site features a dynamic project slideshow, 
       individual project pages with image lightboxes, a skills tracker that pulls 
       automatically from project data, and a multi-page layout deployed continuously 
       via Vercel. Every design decision — from the maroon and tan color palette to the 
       typographic hierarchy — was made to reflect a clean, engineering-forward aesthetic.
-      `,
+      `,],
     skills: ["Next.js", "TypeScript", "Vercel", "UI/UX Design"],
     short: [
       "A custom-built digital portfolio built with Next.js and TypeScript, deployed continuously via Vercel to document my projects and skills",
@@ -168,11 +168,11 @@ export const projects = [
     date: "January 2025 — August 2025",
     status: "past",
     accent: "#C4A882",
-    description: `"Fire-Flight: ML-Driven Aerial Sensing for Wildfire Prediction 
+    description: [`"Fire-Flight: ML-Driven Aerial Sensing for Wildfire Prediction 
     and Smart Evacuation," explores how a remote-controlled plane we created can 
     collect data to enhance machine-learning models that support wildfire response 
     and evacuation strategies. I worked on the structual aspects of the plane 
-    verifying the flight capablities utilizing MATLAB and SolidWorks.`,
+    verifying the flight capablities utilizing MATLAB and SolidWorks.`],
     skills: ["SolidWorks", "CFD", "MATLAB", "Structural Analysis", "Aerodynamics", "Research Presentation"],
     short: [
       "Led SolidWorks structural analysis and CFD for an RC plane studying evacuation routes",
@@ -196,15 +196,19 @@ export const projects = [
     status: "past",
     accent: "#6B1F2A",
     description: [
-      `Performed preliminary interplanetary mission analysis for a transfer from Earth to Near-Earth Object 65803 Didymos as part 
-      of a university astrodynamics course. Implemented a full astrodynamics toolkit in MATLAB from scratch, including Keplerian 
-      element conversions, Kepler's equation solver via Newton-Raphson iteration, and Lambert's problem using universal variables. 
-      Conducted mission trajectory optimization by generating a porkchop plot over a 1000-day launch window to identify optimal departure 
-      and arrival dates minimizing total transfer ΔV. Visualized results including 3D transfer trajectories and orbital mechanics of both 
+      `Performed preliminary interplanetary mission analysis for a transfer from 
+      Earth to Near-Earth Object 65803 Didymos as part of a university astrodynamics 
+      course. Implemented a full astrodynamics toolkit in MATLAB from scratch, including 
+      Keplerian element conversions, Kepler's equation solver via Newton-Raphson 
+      iteration, and Lambert's problem using universal variables. Conducted mission 
+      trajectory optimization by generating a porkchop plot over a 1000-day launch window 
+      to identify optimal departure and arrival dates minimizing total transfer ΔV. 
+      Visualized results including 3D transfer trajectories and orbital mechanics of both 
       Earth and Didymos.`,
       ``,
-      `Didymos is the target of NASA's DART mission, the world's first planetary defense demonstration, which successfully impacted the 
-      asteroid in September 2022. It is a well-studied and mission-relevant object for trajectory analysis.`,
+      `Didymos is the target of NASA's DART mission, the world's first planetary defense 
+      demonstration, which successfully impacted the asteroid in September 2022. It is a 
+      well-studied and mission-relevant object for trajectory analysis.`,
       ],
     skills: ["MATLAB", "Astrodynamics", "Trajectory Optimization", "Lambert's Problem", "Orbital Mechanics", "Data Visualization"],
     short: [
@@ -260,7 +264,14 @@ export const projects = [
     date: "Summer 2026",
     status: "future",
     accent: "#7B5EA7",
-    description: "Write your paragraph description of Flyby here. Describe the concept of a mini FPV racing drone, the CAD and 3D printing process, and how it enables on-site racing simulations and note-taking.",
+    description: [
+      `Description in development: A mini FPV racing drone with a custom CAD-designed 
+      and 3D printed frame, built to explore the intersection of aerospace engineering 
+      and drone technology. This project will involve designing a compact, lightweight 
+      frame optimized for agility and speed, integrating high-performance motors and 
+      flight controllers, and fine-tuning the drone's aerodynamics through iterative 
+      testing.`
+    ],
     skills: ["Raspberry Pi", "CAD", "3D Printing", "Hardware Design"],
     short: [
       "Mini FPV racing drone with a custom CAD-designed and 3D printed frame",
