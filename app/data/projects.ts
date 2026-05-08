@@ -56,7 +56,7 @@ export const projects = [
       pneumatic impulse propulsion system`,
     ],
     images: [
-      { src: "/images/ROK-Robot.JPG", caption: "Ackerman Steering Subassembly" },
+      { src: "/images/ROK-Robot.jpg", caption: "Ackerman Steering Subassembly" },
     ],
     documentation: [
       { label: "Nothing yet ", href: "/docs/ROK-docs.pdf" },
