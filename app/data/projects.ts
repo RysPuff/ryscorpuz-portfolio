@@ -1,4 +1,67 @@
 export const projects = [
+  /*
+  {
+    slug: "template",
+    order: #,
+    name: "Name of Project",
+    subtitle: "subtitle",
+    date: "idk",
+    status: "past, current, or future",
+    accent: "#C4A882",
+    description: [
+      `smt smt
+      second line`,
+    ],
+    skills: ["tag1", "tag2"],
+    short: [
+      `description on the card`,
+    ],
+    images: [
+      { src: "/images/template-1.png", caption: "caption" },
+      { src: "/images/template-2.jpg", caption: "caption" },
+    ],
+    documentation: [
+      { label: "label", href: "/docs/jester-buildlog.pdf" },
+    ],
+  }, 
+  */
+ {
+    slug: "ROK",
+    order: 2,
+    name: "ROK Robot",
+    subtitle: `Autonomous Pneumatic "Kick-Propulsion" Robot`,
+    date: "March 2026 — Present",
+    status: "current",
+    accent: "#C4A882",
+    description: [
+      `I am spearheading the design and CAD development of a 25lb autonomous robot featuring 
+      a unique pneumatic "kick-propulsion" system. Tasked with integrating a specific 
+      set of pneumatic components into a high-profile, 16-inch tall chassis, my primary 
+      focus was balancing dynamic stability with precision maneuverability. I engineered 
+      the structural frame to withstand the jarring impulses of the pneumatic actuator 
+      while managing a high center of gravity, ensuring the machine could follow designated 
+      pathways without tipping or losing traction.`,
+
+      `To achieve precise navigation, I designed and modeled a custom Ackermann steering 
+      geometry optimized for a square 6.5" wheelbase. I calculated the exact interior 
+      angles and tie-rod lengths required to eliminate tire scrubbing and minimize 
+      steering resistance. By leveraging SolidWorks for full-system assembly and motion studies, 
+      I successfully integrated the propulsion "swing window" within the steering linkage, 
+      resulting in a robust, functional machine that met all project criteria and performance 
+      goals.`,
+    ],
+    skills: ["SolidWorks", "Robotics", "3D Printing", "Laser Cutting"],
+    short: [
+      `A 25lb autonomous robot designed with a square 6.5" chassis to stabilize a unique 
+      pneumatic impulse propulsion system`,
+    ],
+    images: [
+      { src: "/images/ROK-Robot.JPG", caption: "Ackerman Steering Subassembly" },
+    ],
+    documentation: [
+      { label: "Nothing yet ", href: "/docs/ROK-docs.pdf" },
+    ],
+  }, 
   {
     slug: "jester",
     order: 1,
@@ -36,7 +99,7 @@ export const projects = [
   },
   {
     slug: "saddlehorse",
-    order: 2,
+    order: 3,
     name: "Saddlehorse",
     subtitle: "High-Powered L2 Rocket Program",
     date: "February 2026 — Present",
@@ -75,7 +138,7 @@ export const projects = [
   },
   {
     slug: "website",
-    order: 3,
+    order: 4,
     name: "Vercel Portfolio Website",
     subtitle: "You're looking at it!",
     date: "April 2026 — Present",
@@ -221,7 +284,7 @@ export const projects = [
       demonstration, which successfully impacted the asteroid in September 2022. It is a 
       well-studied and mission-relevant object for trajectory analysis.`,
       ],
-    skills: ["MATLAB", "Astrodynamics", "Trajectory Optimization", "Lambert's Problem", "Orbital Mechanics", "Data Visualization"],
+    skills: ["MATLAB", "Astrodynamics", "Trajectory Optimization", "Orbital Mechanics", "Data Visualization"],
     short: [
       `Developed a MATLAB astrodynamics toolkit to solve Lambert's problem and optimize ΔV for a 1000-day Earth-to-Didymos 
       launch window via porkchop plot analysis.`,
