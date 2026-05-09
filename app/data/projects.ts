@@ -25,7 +25,42 @@ export const projects = [
     ],
   }, 
   */
- {
+   {
+    slug: "jester",
+    order: 1,
+    name: "Jester Rocket",
+    subtitle: "L2 Capable Rocket — Scrap Build Challenge",
+    date: "April 2026 — Present",
+    status: "current",
+    accent: "#C4A882",
+    description: [
+      `Jester is an L2-capable rocket built entirely from free scrap parts as a 
+      personal engineering challenge on a sub-$40 budget (excluding motor). The 
+      project began as a creative exercise in resourcefulness and hands-on engineering, 
+      with the goal of designing and launching a high-performance rocket, using only 
+      materials that could be sourced for free from the Engineering department, at the 
+      University of California or purchased within the strict budget constraint, of 
+      $40 (excluding motor). Jester represents a unique blend of creativity, 
+      engineering skill, and frugality, demonstrating that with ingenuity and 
+      determination, it's possible to achieve impressive results even with limited 
+      resources.`,
+    ],
+    skills: ["SolidWorks", "OpenRocket", "Budget Design", "Laser Cutting"],
+    short: [
+      `L2-capable rocket built entirely from free scrap parts as a personal engineering
+      challenge on a sub-$40 budget (excluding motor)`,
+    ],
+    images: [
+      { src: "/images/jester-1.png", caption: "Rocket Rendered Image" },
+      { src: "/images/jester-2.jpg", caption: "OpenRocket" },
+    ],
+    documentation: [
+      { label: "Build Log", href: "/docs/jester-buildlog.pdf" },
+      { label: "OpenRocket Simulation File", href: "/docs/jester-sim.ork" },
+
+    ],
+  },
+  {
     slug: "ROK",
     order: 2,
     name: "ROK Robot",
@@ -62,41 +97,6 @@ export const projects = [
       { label: "Nothing yet ", href: "/docs/ROK-docs.pdf" },
     ],
   }, 
-  {
-    slug: "jester",
-    order: 1,
-    name: "Jester Rocket",
-    subtitle: "L2 Capable Rocket — Scrap Build Challenge",
-    date: "April 2026 — Present",
-    status: "current",
-    accent: "#C4A882",
-    description: [
-      `Jester is an L2-capable rocket built entirely from free scrap parts as a 
-      personal engineering challenge on a sub-$40 budget (excluding motor). The 
-      project began as a creative exercise in resourcefulness and hands-on engineering, 
-      with the goal of designing and launching a high-performance rocket, using only 
-      materials that could be sourced for free from the Engineering department, at the 
-      University of California or purchased within the strict budget constraint, of 
-      $40 (excluding motor). Jester represents a unique blend of creativity, 
-      engineering skill, and frugality, demonstrating that with ingenuity and 
-      determination, it's possible to achieve impressive results even with limited 
-      resources.`,
-    ],
-    skills: ["SolidWorks", "OpenRocket", "Budget Design", "Laser Cutting"],
-    short: [
-      `L2-capable rocket built entirely from free scrap parts as a personal engineering
-      challenge on a sub-$40 budget (excluding motor)`,
-    ],
-    images: [
-      { src: "/images/jester-1.png", caption: "Rocket Rendered Image" },
-      { src: "/images/jester-2.jpg", caption: "OpenRocket" },
-    ],
-    documentation: [
-      { label: "Build Log", href: "/docs/jester-buildlog.pdf" },
-      { label: "OpenRocket Simulation File", href: "/docs/jester-sim.ork" },
-
-    ],
-  },
   {
     slug: "saddlehorse",
     order: 3,
