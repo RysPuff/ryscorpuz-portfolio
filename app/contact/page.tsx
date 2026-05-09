@@ -23,7 +23,7 @@ export default function Contact() {
         */}
 
       <div className="contact-links">
-        <a className="contact-link" href="https://linkedin.com/in/ryscorpuz" target="_blank" rel="noopener noreferrer">
+        <a className="contact-link" href="https://www.linkedin.com/in/shira-rys-corpuz/" target="_blank" rel="noopener noreferrer">
           <span className="contact-link-label">LinkedIn</span>
           <span className="contact-link-value">linkedin.com/in/shira-rys-corpuz</span>
         </a>
