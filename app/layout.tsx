@@ -1,5 +1,4 @@
 "use client";
-import type { Metadata } from "next";
 import "./globals.css";
 import { useState } from "react";
 
@@ -59,6 +58,44 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             .nav-links.nav-open { display: flex; }
             .nav-links a { font-size: 0.85rem; }
           }
+
+          /* FOOTER */
+          .site-footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 1rem;
+            padding: 2rem 3rem;
+            border-top: 1px solid rgba(196,168,130,0.08);
+            background: var(--dark2);
+          }
+          .footer-socials {
+            display: flex;
+            gap: 0.75rem;
+          }
+          .footer-social-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.5rem 1.25rem;
+            border: 1px solid rgba(196,168,130,0.2);
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.65rem;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            transition: border-color 0.2s, color 0.2s, background 0.2s;
+          }
+          .footer-social-btn:hover {
+            border-color: rgba(196,168,130,0.5);
+            color: var(--tan);
+            background: rgba(196,168,130,0.06);
+          }
+          .footer-copy {
+            font-size: 0.6rem;
+            letter-spacing: 0.15em;
+            color: var(--text-muted);
+          }
         `}</style>
 
         <nav>
@@ -85,8 +122,26 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
         {children}
 
-        <footer>
-          &copy; 2026 Rys Corpuz &mdash; Aerospace Engineer
+        <footer className="site-footer">
+          <div className="footer-socials">
+            <a
+              className="footer-social-btn"
+              href="https://www.linkedin.com/in/shira-rys-corpuz/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ↗ LinkedIn
+            </a>
+            <a
+              className="footer-social-btn"
+              href="https://github.com/RysPuff/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ↗ GitHub
+            </a>
+          </div>
+          <div className="footer-copy">&copy; 2026 Rys Corpuz &mdash; Aerospace Engineer</div>
         </footer>
       </body>
     </html>
