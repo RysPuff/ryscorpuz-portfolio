@@ -60,14 +60,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }
 
         <footer className="site-footer">
-          <div className="footer-top">
-            <div className="footer-socials">
-              <a className="footer-social-btn" href="https://www.linkedin.com/in/shira-rys-corpuz/" target="_blank" rel="noopener noreferrer">in</a>
-              <a className="footer-social-btn" href="https://github.com/RysPuff/" target="_blank" rel="noopener noreferrer">gh</a>
-            </div>
-          </div>
-          <hr className="footer-divider" />
           <div className="footer-copy">&copy; 2026 Rys Corpuz &mdash; Aerospace Engineer</div>
+          <div className="footer-socials">
+            <a className="footer-social-btn" href="https://www.linkedin.com/in/shira-rys-corpuz/" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+              𝓲𝓷
+            </a>
+            <a className="footer-social-btn" href="https://github.com/RysPuff/" target="_blank" rel="noopener noreferrer" title="GitHub">
+              ⌥
+            </a>
+          </div>
         </footer> 
 
         `}</style>
