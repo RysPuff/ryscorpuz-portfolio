@@ -91,7 +91,7 @@ export const projects = [
       pneumatic impulse propulsion system`,
     ],
     images: [
-      { src: "/images/ROK-Robot-1.jpg", caption: "CAD Model" },
+      { src: "/images/ROK-Robot-1.png", caption: "CAD Model" },
     ],
     documentation: [
       { label: "Nothing yet ", href: "/docs/ROK-docs.pdf" },
