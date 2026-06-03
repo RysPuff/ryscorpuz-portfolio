@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import { projects } from "./data/projects";
 
-const currentProjects = projects.filter((p) => p.status === "current");
+const currentProjects = projects.filter((p) => p.status === "past");
 
 export default function Home() {
   const [current, setCurrent] = useState(0);
