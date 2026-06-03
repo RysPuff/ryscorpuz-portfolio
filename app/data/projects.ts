@@ -65,8 +65,8 @@ export const projects = [
     order: 2,
     name: "ROK Robot",
     subtitle: `Autonomous Pneumatic "Kick-Propulsion" Robot`,
-    date: "March 2026 — Present",
-    status: "current",
+    date: "March 2026 — May 2026",
+    status: "past",
     accent: "#C4A882",
     description: [
       `I am spearheading the design and CAD development of a 25lb autonomous robot featuring 

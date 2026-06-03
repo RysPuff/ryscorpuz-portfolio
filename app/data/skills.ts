@@ -11,8 +11,8 @@ export const manualSkills = {
     { name: "A.S. in Physics", source: "Foothill College" },
     { name: "A.S.T. in Physics", source: "Foothill College" },
     { name: "A.S.T. in Mathematics", source: "Foothill College" },
-    { name: "L1 Rocketry Certification", source: "National Association of Rocketry" },
-    { name: "L2 Rocketry Certification (In Progress)", source: "Tripoli Rocketry Association" },
+    { name: "L1 Rocketry Certification", source: "National Association of Rocketry & Tripoli Rocketry Association" },
+    { name: "L2 Rocketry Certification", source: "In Progress" },
   ],
   fromProjectsAndResearch: dynamicSkills
 };
