@@ -87,7 +87,7 @@ export const projects = [
     skills: ["SolidWorks", "Robotics", "3D Printing", "Laser Cutting", "MATLAB", "Data Analysis", "PID Control"],
     short: [
       `A 25lb autonomous robot designed with a square 6.5" chassis to stabilize a unique 
-      pneumatic impulse propulsion system`,
+      pneumatic impulse propulsion system.`,
     ],
     images: [
       { src: "/images/ROK-Robot-1.png", caption: "CAD Model" },
@@ -181,9 +181,8 @@ export const projects = [
     ],
     skills: ["SolidWorks", "Laser Cutting", "OpenRocket"],
     short: [
-      "Designed, built, and launched an L1-certified rocket with a koi fish paint job as a solo project",
-      "Self-taught rocket design, propulsion systems, and safety protocols using SolidWorks, laser cutting, and simulation",
-    ],
+      `Designed, simulated, and built a custom koi-themed, L1-certified 
+      (L2-capable) high-power rocket as a solo engineering project.`],
     images: [
       { src: "/images/kohaku-1.jpg", caption: "Me and the Kohaku Comet" },
       { src: "/images/kohaku-2.jpg", caption: "Rocket on the Launch Pad" },
@@ -249,7 +248,7 @@ export const projects = [
     ],
     skills: ["SolidWorks", "CFD", "MATLAB", "Structural Analysis", "Aerodynamics", "Research Presentation"],
     short: [
-      "Led SolidWorks structural analysis and CFD for an RC plane studying evacuation routes",
+      "Led SolidWorks structural analysis and CFD for an RC plane studying evacuation routes.",
     ],
     images: [
       { src: "/images/rcplane-1.jpg", caption: "RC Plane" },
@@ -319,7 +318,7 @@ export const projects = [
     skills: ["SolidWorks","Raspberry Pi", "3D Printing", "OpenRocket", "Hardware Design"],
     short: [
       `Wearable cyberdeck built around a Raspberry Pi Zero 2 W made to
-      run OpenRocket simulations in the field and take notes on-site`,
+      run OpenRocket simulations in the field and take notes on-site.`,
     ],
     images: [
       { src: "/images/nyxnode-1.jpg", caption: "Mock Up Sketch" },
@@ -348,7 +347,7 @@ export const projects = [
     ],
     skills: ["SolidWorks", "Raspberry Pi", "3D Printing", "Hardware Design"],
     short: [
-      "Mini FPV racing drone with a custom CAD-designed and 3D printed frame",
+      "Mini FPV racing drone with a custom CAD-designed and 3D printed frame.",
     ],
     images: [
       { src: "/images/nothing.jpg", caption: "Nothing Yet" },
