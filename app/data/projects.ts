@@ -69,23 +69,22 @@ export const projects = [
     status: "past",
     accent: "#C4A882",
     description: [
-      `I am spearheading the design and CAD development of a 25lb autonomous robot featuring 
-      a unique pneumatic "kick-propulsion" system. Tasked with integrating a specific 
-      set of pneumatic components into a high-profile, 16-inch tall chassis, my primary 
-      focus was balancing dynamic stability with precision maneuverability. I engineered 
-      the structural frame to withstand the jarring impulses of the pneumatic actuator 
-      while managing a high center of gravity, ensuring the machine could follow designated 
-      pathways without tipping or losing traction.`,
+      `I was the mechanical lead for a team of three designing a 25lb autonomous robot featuring 
+      a unique pneumatic "kick-propulsion" system. I spearheaded the CAD development and structural 
+      engineering of the high-profile, 16-inch tall chassis, ensuring the frame could withstand the 
+      jarring impulses of the pneumatic actuator while managing a high center of gravity. To evaluate 
+      propulsion performance, I conducted physical experiments to map velocity-vs-time and 
+      position-vs-time data, leveraging MATLAB to analyze the results and validate them against our 
+      design simulations.`,
 
-      `To achieve precise navigation, I designed and modeled a custom Ackermann steering 
-      geometry optimized for a square 6.5" wheelbase. I calculated the exact interior 
-      angles and tie-rod lengths required to eliminate tire scrubbing and minimize 
-      steering resistance. By leveraging SolidWorks for full-system assembly and motion studies, 
-      I successfully integrated the propulsion "swing window" within the steering linkage, 
-      resulting in a robust, functional machine that met all project criteria and performance 
-      goals.`,
+      `To achieve precise navigation, I collaborated with the team to model a custom Ackermann 
+      steering geometry optimized for a square 6.5" wheelbase and used SolidWorks to integrate 
+      the propulsion "swing window" within the steering linkage. Additionally, I ran experimental 
+      trials to capture real-world system response data, using MATLAB to perform data analysis and 
+      isolate the optimal proportional gain K<sub>p</sub> for the steering PID controller, resulting in a 
+      robust, functional machine that met all performance goals.`,
     ],
-    skills: ["SolidWorks", "Robotics", "3D Printing", "Laser Cutting"],
+    skills: ["SolidWorks", "Robotics", "3D Printing", "Laser Cutting", "MATLAB", "Data Analysis", "PID Control"],
     short: [
       `A 25lb autonomous robot designed with a square 6.5" chassis to stabilize a unique 
       pneumatic impulse propulsion system`,
