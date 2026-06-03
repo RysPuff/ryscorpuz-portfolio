@@ -153,7 +153,8 @@ export const projects = [
       `,],
     skills: ["Next.js", "TypeScript", "Vercel", "UI/UX Design"],
     short: [
-      "A custom-built digital portfolio built with Next.js and TypeScript, deployed continuously via Vercel to document my projects and skills",
+      `A custom-built digital portfolio built with Next.js and TypeScript, deployed 
+      continuously via Vercel to document my projects and skills`,
     ],
     images: [
       { src: "https://api.microlink.io/?url=https://ryscorpuz.vercel.app/&screenshot=true&meta=false&embed=screenshot.url", caption: "Live portfolio preview" },
