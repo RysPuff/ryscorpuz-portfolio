@@ -59,8 +59,7 @@ export const projects = [
       power management.`,
     ],
     images: [
-      { src: "/images/wings-1.png", caption: "High School Prototype" },
-      { src: "/images/wings-2.jpg", caption: "Modern Update" },
+      { src: "/images/wings-1.jpg", caption: "High School Prototype" },
     ],
     documentation: [
       { label: "label", href: "/docs/wings-buildlog.pdf" },
