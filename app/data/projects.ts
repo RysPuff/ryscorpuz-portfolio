@@ -27,7 +27,7 @@ export const projects = [
   */
     {
     slug: "wings",
-    order: 3,
+    order: 1,
     name: "Mechatronic Wings",
     subtitle: "Avian-Inspired Wearable Robotics",
     date: "Summer 2026",
@@ -339,7 +339,7 @@ export const projects = [
   },
     {
     slug: "nyx-node",
-    order: 1,
+    order: 2,
     name: "Nyx Node",
     subtitle: "Wearable Cyberdeck",
     date: "Summer 2026",
@@ -371,7 +371,7 @@ export const projects = [
   },
   {
     slug: "drone",
-     order: 2,
+     order: 3,
     name: "Flyby",
     subtitle: "Mini FPV Racing Drone",
     date: "Summer 2026",
