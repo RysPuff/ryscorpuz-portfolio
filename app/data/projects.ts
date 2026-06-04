@@ -25,6 +25,47 @@ export const projects = [
     ],
   }, 
   */
+    {
+    slug: "wings",
+    order: 3,
+    name: "Mechatronic Wings",
+    subtitle: "Avian-Inspired Wearable Robotics",
+    date: "Summer 2026",
+    status: "future",
+    accent: "#6B1F2A",
+    description: [
+      `This project is a complete mechatronic overhaul and continuation of a mechanical prototype 
+      originally designed in high school. While the legacy iteration relied on a manual, cable-driven 
+      strap configuration to actuate the wing frame, this modern update introduces fully automated, 
+      wireless control. Designed specifically to mimic the complex physical profile of avian parrot 
+      wings for a high-fidelity cosplay, the project merges mechanical design with embedded 
+      engineering.`,
+
+      `The engineering focus centers on converting manual physical force into digital automation 
+      using high-torque servo motors controlled via an embedded microcontroller. Transitioning to 
+      active automation requires precise kinematic synthesis to ensure multi-bar linkages expand 
+      and contract smoothly without binding or colliding under structural loads.`,
+
+      `Key technical challenges include calculating dynamic torque demands across extensive moment 
+      arms, optimizing gear ratios to manage high stall currents, and implementing a dedicated power 
+      management circuit to prevent voltage drops from resetting the microcontroller logic gates 
+      during active actuation.`,
+    ],
+    skills: ["Mechatronics", "Kinematic Modeling", "Embedded Systems", "Servo Control", 
+      "C/C++", "Gear Train Design", "Power Management"],    
+    short: [ 
+      `Avian-inspired wearable robotics featuring wireless, servo-driven parrot 
+      wings engineered with custom gear trains, multi-bar linkages, and embedded 
+      power management.`,
+    ],
+    images: [
+      { src: "/images/wings-1.png", caption: "High School Prototype" },
+      { src: "/images/wings-2.jpg", caption: "Modern Update" },
+    ],
+    documentation: [
+      { label: "label", href: "/docs/wings-buildlog.pdf" },
+    ],
+  },
    {
     slug: "jester",
     order: 1,
