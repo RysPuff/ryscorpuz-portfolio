@@ -37,7 +37,7 @@ export const projects = [
       `This project is a complete mechatronic overhaul and continuation of a mechanical prototype 
       originally designed in high school. While the legacy iteration relied on a manual, cable-driven 
       strap configuration to actuate the wing frame, this modern update introduces fully automated, 
-      wireless control. Designed specifically to mimic the complex physical profile of avian parrot 
+      control. Designed specifically to mimic the complex physical profile of avian parrot 
       wings for a high-fidelity cosplay, the project merges mechanical design with embedded 
       engineering.`,
 
@@ -198,7 +198,8 @@ export const projects = [
     ],
     images: [
       { src: "https://api.microlink.io/?url=https://ryscorpuz.vercel.app/&screenshot=true&meta=false&embed=screenshot.url", caption: "Live portfolio preview" },
-    ],
+      { src: "images/website-1.jpg", caption: "Concept Art for Updated Design" },
+],
     documentation: [
       { label: "Github Repository", href: "https://github.com/RysPuff/ryscorpuz-portfolio" },
     ],
