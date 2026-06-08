@@ -198,7 +198,7 @@ export const projects = [
     ],
     images: [
       { src: "https://api.microlink.io/?url=https://ryscorpuz.vercel.app/&screenshot=true&meta=false&embed=screenshot.url", caption: "Live portfolio preview" },
-      { src: "images/website-1.png", caption: "Concept Art for Updated Design" },
+      { src: "images/Website-1.png", caption: "Concept Art for Updated Design" },
 ],
     documentation: [
       { label: "Github Repository", href: "https://github.com/RysPuff/ryscorpuz-portfolio" },
