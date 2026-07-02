@@ -30,7 +30,7 @@ export const projects = [
     order: 1,
     name: "Mechatronic Wings",
     subtitle: "Avian-Inspired Wearable Robotics",
-    date: "Summer 2026",
+    date: "July 2026 - Present",
     status: "current",
     accent: "#6B1F2A",
     description: [
