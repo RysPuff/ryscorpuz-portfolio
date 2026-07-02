@@ -70,9 +70,9 @@ export const projects = [
     order: 1,
     name: "Jester Rocket",
     subtitle: "L2 Capable Rocket — Scrap Build Challenge",
-    date: "April 2026 — Present",
-    status: "current",
-    accent: "#C4A882",
+    date: "April 2026 — July 2026",
+    status: "past",
+    accent: "#60143e",
     description: [
       `Jester is an L2-capable rocket built entirely from free scrap parts as a 
       personal engineering challenge on a sub-$40 budget (excluding motor). The 
@@ -83,7 +83,12 @@ export const projects = [
       $40 (excluding motor). Jester represents a unique blend of creativity, 
       engineering skill, and frugality, demonstrating that with ingenuity and 
       determination, it's possible to achieve impressive results even with limited 
-      resources.`,
+      resources.
+      
+      This rocket is completely built and is set to launch by fall of 2026. Documentation 
+      of the build process is available upon request and will be published for public 
+      viewing after its first launch.
+      `
     ],
     skills: ["SolidWorks", "OpenRocket", "Budget Design", "Laser Cutting"],
     short: [
@@ -95,8 +100,6 @@ export const projects = [
       { src: "/images/jester-2.jpg", caption: "OpenRocket" },
     ],
     documentation: [
-      { label: "Build Log", href: "/docs/jester-buildlog.pdf" },
-      { label: "OpenRocket Simulation File", href: "/docs/jester-sim.ork" },
 
     ],
   },
