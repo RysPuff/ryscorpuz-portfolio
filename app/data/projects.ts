@@ -31,7 +31,7 @@ export const projects = [
     name: "Mechatronic Wings",
     subtitle: "Avian-Inspired Wearable Robotics",
     date: "Summer 2026",
-    status: "future",
+    status: "current",
     accent: "#6B1F2A",
     description: [
       `This project is a complete mechatronic overhaul and continuation of a mechanical prototype 
@@ -62,7 +62,6 @@ export const projects = [
       { src: "/images/wings-1.jpg", caption: "High School Prototype" },
     ],
     documentation: [
-      { label: "label", href: "/docs/wings-buildlog.pdf" },
     ],
   },
    {
