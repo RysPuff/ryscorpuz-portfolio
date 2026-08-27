@@ -61,7 +61,7 @@ export const projects = [
     images: [
       { src: "/images/wings-1.jpg", caption: "High School Prototype" },
       { src: "/images/wings-2.heic", caption: "Feathers Drafting" },
-      { src: "/images/wings-3.heic", caption: "Present Feathers Progress" },
+      { src: "/images/wings-3.HEIC", caption: "Present Feathers Progress" },
     ],
     documentation: [
     ],
