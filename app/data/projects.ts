@@ -63,7 +63,8 @@ export const projects = [
       { src: "/images/wings-2.jpg", caption: "Feathers Drafting" },
       { src: "/images/wings-3.jpg", caption: "High School Prototype" },
     ],
-    documentation: 
+    documentation: [
+    ],
   },
    {
     slug: "jester",
