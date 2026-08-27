@@ -347,7 +347,7 @@ export const projects = [
     order: 2,
     name: "Nyx Node",
     subtitle: "Wearable Cyberdeck",
-    date: "Summer 2026",
+    date: "TBD",
     status: "future",
     accent: "#7B5EA7",
     description: [
@@ -379,7 +379,7 @@ export const projects = [
      order: 3,
     name: "Flyby",
     subtitle: "Mini FPV Racing Drone",
-    date: "Summer 2026",
+    date: "TBD",
     status: "future",
     accent: "#7B5EA7",
     description: [
